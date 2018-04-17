@@ -2,6 +2,8 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
+
+require __DIR__ . '/../vendor/autoload.php';
 require('src/Email.php');
 
 final class EmailTest extends TestCase
